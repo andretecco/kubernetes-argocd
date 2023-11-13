@@ -5,7 +5,7 @@ metadata: # metadados do recurso
   labels: # labels do recurso
     app: nginx # label para identificar o svc
 spec: # especificação do recurso
-  type: NodePort
+  type: LoadBalancer
   ports: # definição da porta do svc 
   - port: 9113 # porta do svc
     name: metrics # nome da porta
